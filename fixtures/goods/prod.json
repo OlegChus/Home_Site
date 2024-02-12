@@ -1,0 +1,1 @@
+[{"model": "goods.products", "pk": 1, "fields": {"name": "Чайный столик и три стула", "slug": "chajnyj-stolik-i-tri-stula", "description": "Комплект из трёх стульев и дизайнерский столик для гостинной комнаты.", "image": "", "price": "150.00", "discount": "0.00", "quantity": 10, "category": 7}}]
