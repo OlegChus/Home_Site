@@ -86,14 +86,14 @@
             <div class="dropdown mb-2">
                 <button class="btn btn-secondary dropdown-toggle btn-dark" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                    Каталог
+                            Каталог
                     <img class="mx-1" src="{% static 'deps/icons/grid-fill.svg' %}" alt="Catalog Icon" width="16"
                          height="16">
                 </button>
                 <ul class="dropdown-menu bg-dark" data-bs-theme="dark">
                     {% categories_tag as categories %}
                     {% for cat in categories %}
-                    <li><a class="dropdown-item text-white" href="{% url 'catalog:index' %}">{{ cat.name }}</a></li>
+                    <li><a class="dropdown-item text-white" href="{% url 'catalog:index' cat.slug%}">{{ cat.name }}</a></li>
                     {% endfor %}
                 </ul>
             </div>

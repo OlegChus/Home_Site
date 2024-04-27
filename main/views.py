@@ -1,9 +1,7 @@
 from django.shortcuts import render
 
-from goods.models import Categories
 
-
-# Create your views here.
+# from goods.models import Categories
 
 
 def index(request):
